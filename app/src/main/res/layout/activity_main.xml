@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rensramen"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ren's Ramen"
+        android:background="#ff0000"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11403 Amherst Ave, Silver Spring, MD 20902"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="301-933-3725"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/address"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Hours \nWednesday-Monday \n11:30am-3:00pm \n5:00pm-10:00pm \nClosed on Tuesdays"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Only!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic|bold"
+        android:textColor="#FFEB3B"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"/>
+
+</RelativeLayout>
